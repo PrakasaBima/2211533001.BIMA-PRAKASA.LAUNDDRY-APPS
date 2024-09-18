@@ -1,0 +1,11 @@
+<resources>
+<!--    <dimen name="fab_margin">16dp</dimen>-->
+    <dimen name="xss">2dp</dimen>
+    <dimen name="xs">4dp</dimen>
+    <dimen name="sm">8dp</dimen>
+    <dimen name="md">10dp</dimen>
+    <dimen name="lg">12dp</dimen>
+    <dimen name="xlg">16dp</dimen>
+    <dimen name="xxlg">20dp</dimen>
+
+</resources>

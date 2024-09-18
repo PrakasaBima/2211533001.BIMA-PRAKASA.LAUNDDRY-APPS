@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddLaundryActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sm"
+        android:orientation="vertical"
+        android:padding="@dimen/lg"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="14dp">
+
+
+        <TextView
+            android:id="@+id/pelanggan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@mipmap/ic_pelanggan"
+            android:text="Pelanggan"
+            android:textSize="20sp"
+            android:gravity="center_vertical"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/lg"
+            android:padding="@dimen/lg"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="86dp">
+
+            <TextView
+                android:id="@+id/cucisetrika2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="@dimen/xs"
+                android:padding="4dp"
+                android:text="CUCI SETRIKA"
+                android:textColor="@color/darkblue"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/harga1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cucisetrika2"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:padding="@dimen/xs"
+                android:text="Rp.6000/Kg"
+                android:textSize="12sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="#9d9d9d"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/lg"
+            android:padding="@dimen/lg"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="185dp">
+
+            <TextView
+                android:id="@+id/setrika"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:padding="4dp"
+                android:text="SETRIKA"
+                android:textColor="@color/darkblue"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/harga2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/setrika"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:padding="@dimen/xs"
+                android:text="Rp.4000/Kg"
+                android:textSize="13sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+
+                    android:text="0"
+                    android:textColor="#9d9d9d"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/lg"
+            android:padding="@dimen/lg"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="281dp">
+
+            <TextView
+                android:id="@+id/cuci"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:padding="4dp"
+                android:text="CUCI"
+                android:textColor="@color/darkblue"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/harga3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cuci"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:padding="@dimen/xs"
+                android:text="Rp.4000/Kg"
+                android:textSize="14sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+
+                    android:text="0"
+                    android:textColor="#9d9d9d"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_margin="@dimen/xs"
+            android:padding="@dimen/xs">
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="2dp"
+                android:gravity="end"
+                android:text="Total"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/harga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp. 30.000"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/total"
+                android:layout_alignEnd="@id/total"
+                android:gravity="end"
+                android:paddingTop="25dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/lg"
+            android:paddingTop="@dimen/xlg"
+            android:layout_marginTop="20dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="457dp">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:background="@color/green"
+                android:text="SIMPAN" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:background="@color/red"
+                android:text="BATAL" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

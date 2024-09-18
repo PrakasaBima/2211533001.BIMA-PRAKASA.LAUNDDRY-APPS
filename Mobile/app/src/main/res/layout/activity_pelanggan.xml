@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PelangganActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/lg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497">
+
+        <TextView
+            android:id="@+id/tambah_pelanggan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/darkblue"
+            android:padding="@dimen/sm"
+            android:text="TAMBAH PELANGGAN"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="@dimen/xlg"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/sm"
+            android:padding="@dimen/sm"
+            android:paddingTop="@dimen/xlg"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="86dp">
+
+            <TextView
+                android:id="@+id/customer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="@dimen/xs"
+                android:padding="4dp"
+                android:text="FULAN"
+                android:textColor="@color/darkblue"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nohp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/customer1"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:padding="@dimen/xs"
+                android:text="089123456784"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/sm"
+            android:padding="@dimen/sm"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="185dp">
+
+            <TextView
+                android:id="@+id/customer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:padding="4dp"
+                android:text="FULANAH"
+                android:textColor="@color/darkblue"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nohp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/customer2"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:padding="@dimen/xs"
+                android:text="082724250904"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/sm"
+            android:padding="@dimen/sm"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="281dp">
+
+            <TextView
+                android:id="@+id/customer3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:padding="4dp"
+                android:text="DIA"
+                android:textColor="@color/darkblue"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nohp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/customer3"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:padding="@dimen/xs"
+                android:text="082506200424"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
