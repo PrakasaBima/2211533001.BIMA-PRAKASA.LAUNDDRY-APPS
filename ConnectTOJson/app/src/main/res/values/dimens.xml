@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <dimen name="lg">16dp</dimen>
+        <dimen name="x_lg">30dp</dimen>
+        <dimen name="md">12dp</dimen>
+        <dimen name="sm">8dp</dimen>
+        <dimen name="xs">4dp</dimen>
+        <dimen name="xss">2dp</dimen>
+        <dimen name="fab_margin">16dp</dimen>
+        <dimen name="height_edittext">50dp</dimen>
+
+</resources>

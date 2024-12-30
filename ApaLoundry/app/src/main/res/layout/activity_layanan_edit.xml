@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/lg"
+    tools:context=".Layanan.LayananEditActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/lg"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="12dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/lg"
+            android:text="EDIT LAYANAN"
+            android:textColor="@color/darkblue"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Layanan"
+                android:textSize="13sp"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/EditLayanan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/sm"
+                android:background="@drawable/customborder"
+
+                android:drawablePadding="@dimen/sm"
+                android:hint="Masukkan layanan terbaru"
+                android:padding="@dimen/md"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/md"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harga"
+                android:textSize="13sp"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/EditHarga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/customborder"
+
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/md"
+                android:hint="Masukkan harga barang"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/xlg"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/EditSimpan"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/xss"
+                android:layout_weight="1"
+                android:background="@color/green"
+                android:text="Simpan" />
+
+            <Button
+                android:id="@+id/EditHapus"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/xss"
+                android:layout_weight="1"
+                android:background="#e35252"
+                android:text="Hapus"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/EditBatal"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/xss"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:text="Batal"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

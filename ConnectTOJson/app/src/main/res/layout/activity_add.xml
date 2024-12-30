@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/lg"
+    tools:context=".AddActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Pelanggan"
+        android:textColor="@color/black"
+        android:textSize="12pt"/>
+    <EditText
+        android:layout_marginTop="@dimen/md"
+        android:id="@+id/etNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"/>
+    <EditText
+        android:layout_marginTop="@dimen/md"
+        android:id="@+id/etAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"/>
+    <EditText
+        android:layout_marginTop="@dimen/md"
+        android:id="@+id/etHp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="HP"/>
+    <LinearLayout
+        android:id="@+id/lytBtn"
+        android:layout_marginTop="@dimen/lg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <Button
+            android:layout_marginRight="@dimen/sm"
+            android:layout_weight="1"
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIMPAN"/>
+        <Button
+            android:backgroundTint="#F44336"
+            android:layout_weight="1"
+            android:id="@+id/btnHapus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HAPUS"/>
+        <Button
+            android:backgroundTint="#FF9800"
+            android:layout_marginLeft="@dimen/sm"
+            android:layout_weight="1"
+            android:id="@+id/btnBatal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BATAL"/>
+    </LinearLayout>
+
+
+</LinearLayout>
